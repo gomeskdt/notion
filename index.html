@@ -16,12 +16,10 @@
             <label>Senha mestre</label>
             <input class="form-control" name="password" id="password" type="password">
         </div>
-        <br>
         <div>
             <label>Senha criptografada</label>
             <textarea class="form-control" id="text" rows="3"></textarea>
         </div>
-        <br>
         <div class="form-check">
             <input class="form-check-input" type="radio" name="option" id="optionEncrypt">
             <label class="form-check-label" for="optionEncrypt">
@@ -34,13 +32,11 @@
                 Decriptar
             </label>
         </div>
-        <br>
         <div>
             <button id="go" type="button" class="btn btn-dark">Criptografar | Descriptografar</button>
-            <button onclick="copy()" type="button" class="btn btn-light ml-4">Copiar</button>
+           <button onclick="copy()" type="button" class="btn btn-success ml-4">Copiar para o clipboard</button>
         </div>
-        <br>
-        <label class="mt-1">resultado</label>
+        <h2 class="mt-1">RESULTADO</h2>
         <div id="result" style='white-space:pre'>
             
         </div>
